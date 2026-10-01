@@ -1,3 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=BJCree:wght@400;500;600;700&family=Kedebideri:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kedebideri', 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    color: #2b2b2b;
+    background-color: #f7f3ef;
+}
+
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'BJCree', serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #3c2218; /* Primario: Café Oscuro HEX */
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-family: 'Kedebideri', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #8c4a27; /* Secundario: Terracota HEX */
+    margin-bottom: 0.75rem;
+}
+
+h3 {
+    font-family: 'Kedebideri', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #d97736; /* Acento: Caramelo HEX */
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #2b2b2b;
+}
+
+.header-principal {
+    background-color: #3c2218; /* Primario HEX */
+    color: #f7f3ef;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.header-principal h1 {
+    color: #f7f3ef;
+}
+
+.header-principal img {
+    max-width: 90px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.nav-principal {
+    margin-top: 1rem;
+}
+
+.nav-lista {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.nav-enlace {
+    color: #f7f3ef;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.nav-enlace:hover {
+    color: #d97736;
+}
+
+.contenido-principal {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.seccion-contenido {
+    margin-bottom: 2rem;
+}
+
+.tarjeta-articulo {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 5px solid #d97736; /* Borde de acento HEX */
+    margin-top: 1rem;
+}
+
+.tarjeta-articulo ul, 
+.tarjeta-articulo ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.tarjeta-articulo li {
+    margin-bottom: 0.4rem;
+}
+
+figure {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+figcaption {
+    font-size: 0.85rem;
+    color: #666666;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+.pie-pagina {
+    background-color: #3c2218;
+    color: #f7f3ef;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 3rem;
+}
+
+.pie-pagina p {
+    color: #f7f3ef;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.pie-pagina ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pie-pagina a {
+    color: #d97736;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.pie-pagina a:hover {
+    text-decoration: underline;
 }
