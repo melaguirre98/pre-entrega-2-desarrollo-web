@@ -162,3 +162,25 @@ figcaption {
 .pie-pagina a:hover {
     text-decoration: underline;
 }
+
+.lista-sucursal {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 16px;
+}
+
+.lista-sucursal li {
+    margin-bottom: 1rem;
+}
+
+
+.tarjeta-articulo img {
+    width: 100%;
+    max-width: 450px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 0.8rem 0;
+}
